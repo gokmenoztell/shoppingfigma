@@ -1,0 +1,594 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('../fonts/Poppins-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logoSwiper .swiper-slide {
+  background:transparent;
+}
+
+.navbar-nav {
+  gap: 3rem;
+
+}
+
+.navbar-nav a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding: 0 15px !important;
+}
+
+.signup {
+  width: 124px;
+  height: 38px;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+
+
+}
+
+.shopnow {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: -0.05em;
+  width: 140.97px;
+  height: 50.95px;
+  border-radius: 4.75px;
+  background-color: #000000;
+
+}
+
+.shopnow2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: -0.05em;
+  width: 170.97px;
+  height: 62.95px;
+  border-radius: 4.75px;
+  background-color: #000000;
+}
+
+.form-control:focus,
+.form-control:focus-visible,
+.form-control:active,
+.form-control:hover{
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.search-bar{
+  background: #fff;
+  border-radius: 0.375rem !important;
+}
+.search-bar input{
+  background: #fff;
+  border-radius: 0.375rem !important;
+  border: none;
+}
+.search-bar button{
+  margin: 15px;
+  border-radius: 0.375rem !important;
+}
+.swiper.mySwiper {
+  border-radius: 25px;
+  /*height: 61vh;*/
+
+}
+ 
+.brand {
+  height: 186px;
+  top: 1079px;
+  width: inherit;
+  display: flex;
+}
+
+.brandimg {
+  width: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.slider-a1 {
+  font-family: 'Poppins', sans-serif;
+  color: #191919;
+  font-size: 32px;
+  font-weight: 500; 
+  letter-spacing: -0.04em;
+  text-align: left; 
+  line-height: normal; 
+}
+
+.slider-a2 {
+  font-family: 'Poppins', sans-serif;
+  color: #7F7F7F;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  text-align: left;
+
+
+}
+
+.slider-tittle h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.slider-text span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 50%;
+}
+
+.slider-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.swiper-pagination{
+  top: 95.1% !important;
+}
+
+.sale-tittle p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 95px;
+  font-weight: 900;
+  line-height: 110px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.sale-tittle2 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #231300;
+}
+
+.sale-tittle3 span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+
+.sale-tittle3 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.card-body {
+  padding: 15px 0 0 0;
+}
+
+.apptittle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.inputsend {
+  background-color: #E5C643;
+  height: 623px;
+  top: 5646px;
+}
+
+.inputtext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 35%;
+}
+
+.footerP {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footerP2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #8E8E8E;
+}
+
+.footer-li {
+  color: #8E8E8E;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1399px) {
+  .slider-a1{
+    font-size: 24px;
+  }
+  .slider-a2{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  .slider-a1{
+    font-size: 22px;
+  }
+  .slider-a2{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:991.98px) {
+  .mobileapp{
+    width: 100%;
+  }
+  .apptittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+  .slider-a1{
+    font-size: 20px; 
+    white-space: nowrap;
+  }
+  .slider-a2{
+    font-size: 14px;
+  }
+  .brand{
+    height: 80px;
+  }
+  .slider-text span {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .swiper-slide .imgWrapper {
+    width: 35%;
+  }
+
+  .slider-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+
+  .section-mobile {
+    height: 45% !important;
+  }
+
+  .paydawsale {
+    width: 97vw;
+  }
+  .shopnow{
+  
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.05em;
+    width: 112.97px;
+    height: 32.95px;
+   
+  }
+  .sale-tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.appstore{
+  width: 70%;
+}
+.playstore{
+  width: 70%;
+}
+} 
+@media screen and (max-width:768px) {
+  .mobileapp{
+    width: 80%;
+  }
+  .appstore{
+    width: 100%;
+  }
+  .playstore{
+    width: 100%;
+  }
+  .sale-tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .slider-a1{
+    font-size: 18px;
+  }
+  .slider-a2{
+    font-size: 16px;
+  }
+  .swiper-slide .imgWrapper {
+    width: 40%;
+  }
+  .slider-text span { 
+    font-size: 22px; 
+    line-height: 40px;  
+    margin-top: 1.5rem;
+  } 
+  .slider-text p { 
+    font-size: 18px; 
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+
+  .shopnow{
+    font-size: 15px;
+    width: 94.97px;
+    height: 38.95px;
+  }
+}
+ 
+
+.sliderT {
+  width: 25%;
+}
+
+@media screen and (max-width:575px) {
+  .mobileapk{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .inputtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+  .tryh{
+    flex-direction: column !important;
+  }
+  .swiper-pagination {
+    top: 94.1% !important;
+}
+  .slider-a1{
+    font-size: 18px;
+  }
+  .sale-tittle2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #231300;
+}
+.sale-tittle3 span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+.sale-tittle3 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+  .swiper-slide .imgWrapper {
+    width: 50%;
+  }
+  .slider-text span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+
+  .shopnow {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.05em;
+    width: 94.97px;
+    height: 28.95px;
+    border-radius: 4.75px;
+    background-color: #000000;
+  }
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 90%;
+}
+}
+
+@media screen and (max-width:480px) {
+  .apptittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+  .slider-a1{
+    font-size: 13px;
+  }
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+  .sale-tittle p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .sale-tittle3 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000;
+}
+  .swiper-slide .imgWrapper {
+    width: 50%;
+  }
+  .slider-text span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+
+  .shopnow {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.05em;
+    width: 94.97px;
+    height: 38.95px;
+    border-radius: 4.75px;
+    background-color: #000000;
+  }
+  .inputtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+}
